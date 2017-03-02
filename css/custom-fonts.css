@@ -1,0 +1,45 @@
+@font-face {
+  font-family: 'flowers';
+  src:  url('../fonts/custom/flowers.eot?brki0d');
+  src:  url('../fonts/custom/flowers.eot?brki0d#iefix') format('embedded-opentype'),
+    url('../fonts/custom/flowers.ttf?brki0d') format('truetype'),
+    url('../fonts/custom/flowers.woff?brki0d') format('woff'),
+    url('../fonts/custom/flowers.svg?brki0d#flowers') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+[class^="flower"], [class*=" flower"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'flowers' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.flowerflower-doodle-outline:before {
+  content: "\e900";
+}
+.flowerflower-hand-drawn-symbol:before {
+  content: "\e901";
+}
+.flowerflower-ornament:before {
+  content: "\e902";
+}
+.flowerflower-shape-2:before {
+  content: "\e903";
+}
+.flowerroses-group:before {
+  content: "\e904";
+}
+.flowerrose-shape:before {
+  content: "\e905";
+}
+
